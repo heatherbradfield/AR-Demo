@@ -1163,8 +1163,8 @@ var Qb=[Ik,Zh,_h,Qj,Qi,Pi,Ri,Ag,sg,qg,rg,yg,kh,jh,Oi,Mj];var Rb=[Jk,ki,ji,gi];va
 
 		mediaDevicesConstraints.facingMode = facing;
 
-		navigator.getUserMedia  = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia;
-		// navigator.getUserMedia = navigator.webkitGetUserMedia;
+		// navigator.getUserMedia  = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia;
+		navigator.getUserMedia = navigator.webkitGetUserMedia;
 		var hdConstraints = {
 			audio: true,
 			video: {
