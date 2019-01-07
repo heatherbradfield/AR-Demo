@@ -10,11 +10,12 @@
   <body>
     <a-scene embedded arjs>
       <a-marker preset='custom' type='pattern' url='futureorb.patt'>
-       <a-entity    id ="dolp"
+       <a-entity    id ="bot"
                     scale="0.5 0.5 0.5"
                     position="0 0 0"
                     rotation="0 0 0"
-                    fbx-model="src: url(models/dolp.fbx);"></a-entity>   
+                    animation-mixer="clip: run"
+                    json-model="src: url(models/bot4.json);"></a-entity>>   
     </a-marker>
     <a-entity camera></a-entity> 
   </body>
